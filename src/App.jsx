@@ -3,6 +3,7 @@ import Nav from "./pages/Nav";
 import Hero from "./pages/Hero";
 import Students from "./pages/Students";
 import Products from "./pages/Products";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Students />
       <Products />
+      <Footer />
     </div>
   );
 }
