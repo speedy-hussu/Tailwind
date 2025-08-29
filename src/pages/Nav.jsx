@@ -1,5 +1,5 @@
 import React from "react";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 function Nav() {
   return (
     <nav className="w-[100%] h-15 bg-gray-800 text-white flex items-center justify-between px-15 fixed">
@@ -16,6 +16,7 @@ function Nav() {
       <button className="hidden sm:block rounded-full bg-amber-400 py-1 px-3 text-lg">
         Login
       </button>
+      <GiHamburgerMenu className="text-2xl sm:hidden" />
     </nav>
   );
 }
